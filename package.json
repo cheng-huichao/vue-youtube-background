@@ -1,6 +1,6 @@
 {
   "name": "vue-youtube-background",
-  "files": ["dist"],
+  "files": ["dist", "public/youtube-background.png"],
   "main": "./dist/vue-youtube-background.umd.js",
   "module": "./dist/vue-youtube-background.es.js",
   "exports": {
@@ -9,8 +9,11 @@
       "require": "./dist/vue-youtube-background.umd.js"
     }
   },
-  "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheng-huichao/vue-youtube-background.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,5 +26,15 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
     "vite": "^5.0.8"
-  }
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "component",
+    "background",
+    "video",
+    "youtube",
+    "youtube background",
+    "video background"
+  ]
 }
