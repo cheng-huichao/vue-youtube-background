@@ -16,4 +16,4 @@ import "vue3-youtube-background/dist/style.css"
 ```
 
 
-![Background.jpg](dist%2FBackground.jpg)
+![Background.jpg](https://github.com/cheng-huichao/vue-youtube-background/blob/main/public/Background.jpg?raw=true)

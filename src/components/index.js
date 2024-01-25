@@ -1,1 +1,0 @@
-export { default as YoutubeBackground } from './YoutubeBackground.vue';

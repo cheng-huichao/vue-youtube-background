@@ -8,10 +8,9 @@
       "import": "./dist/vue-youtube-background.js",
       "require": "./dist/vue-youtube-background.umd.js"
     },
-    "./dist/style.css": "./dist/style.css",
-    "./dist/Background.jpg": "./dist/Background.jpg"
+    "./dist/style.css": "./dist/style.css"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
