@@ -1,18 +1,19 @@
-# Vue component for using Youtube video as background.
+## Make Youtube Video as Your Website's Background.
 
 Very easy to use. 
 
+```javascript
+import {YoutubeBackground} from "vue3-youtube-background";
+import "vue3-youtube-background/dist/style.css"
+```
 
 ```vue
-
 <div style="width: 100%; height: 70vh;">
-  <YoutubeBackground video-id="rpcFhkFTej4">
+  <youtube-background video-id="rpcFhkFTej4">
     <div class="tagline">Welcome to use YoutubeBackground</div>
-  </YoutubeBackground>
+  </youtube-background>
 </div>
-
 ```
 
 
-
-![youtube-background.png](dist/youtube-background.png)
+![Background.jpg](dist%2FBackground.jpg)

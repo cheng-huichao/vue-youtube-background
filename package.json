@@ -1,19 +1,17 @@
 {
-  "name": "vue-youtube-background",
-  "files": ["dist", "public/youtube-background.png"],
-  "main": "./dist/vue-youtube-background.umd.js",
-  "module": "./dist/vue-youtube-background.es.js",
+  "name": "vue3-youtube-background",
+  "files": ["dist"],
+  "main": "./dist/vue-youtube-background.umd.cjs",
+  "module": "./dist/vue-youtube-background.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-youtube-background.es.js",
+      "import": "./dist/vue-youtube-background.js",
       "require": "./dist/vue-youtube-background.umd.js"
-    }
+    },
+    "./dist/style.css": "./dist/style.css",
+    "./dist/Background.jpg": "./dist/Background.jpg"
   },
-  "version": "0.0.2",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cheng-huichao/vue-youtube-background.git"
-  },
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -21,7 +19,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.11"
+    "vue": "^3.4.15"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

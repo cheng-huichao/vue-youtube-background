@@ -1,3 +1,4 @@
+import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -5,9 +6,9 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   build: {
     lib: {
-      entry: 'src/components/index.js',
-      name: 'vue-youtube-background',
-      fileName: (format) => `vue-youtube-background.${format}.js`,
+      entry: resolve(__dirname, 'lib/main.js'),
+      name: 'VueYoutubeBackground',
+      fileName: 'vue-youtube-background',
     },
     rollupOptions: {
       external: ['vue'],
